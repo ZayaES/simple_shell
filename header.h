@@ -3,6 +3,7 @@
 #define BUFSIZE 1024
 
 #include <unistd.h>
+#include <string.h>
 #include <sys/types.h>
 #include <dirent.h>
 #include <stdlib.h>
@@ -17,6 +18,8 @@
 void exec_process(char **path, char *line);
 char **parsing_arg(char *line);
 char *read_line(void);
+int term_write(char *out);
+
 int _putchar(char c);
 
 #endif
