@@ -19,6 +19,7 @@ void exec_process(char **path, char *line);
 char **parsing_arg(char *line);
 char *read_line(void);
 int term_write(char *out);
+void simple_shell(void);
 
 int _putchar(char c);
 
