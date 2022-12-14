@@ -18,5 +18,8 @@ void exec_process(char **path, char *line);
 char **parsing_arg(char *line);
 char *read_line(void);
 int _putchar(char c);
+char **path_av(char **arg);
+char **ph_to_dp(char *ph);
+int number_of_dir(char *ph);
 
 #endif
