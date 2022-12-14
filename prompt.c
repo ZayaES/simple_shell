@@ -97,7 +97,6 @@ char *read_line(void)
 int term_write(char *out)
 {
 	int count;
-	int i = 0;
 
 	count = write(1, out, strlen(out));
 	if (count < 0)
