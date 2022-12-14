@@ -79,9 +79,6 @@ char *read_line(void)
 
 	characters = getline(&line, &bufsize, stdin);
 
-	if (characters == 1)
-
-
 	if (characters == -1)
 	{
 		perror("hsh");
@@ -89,4 +86,23 @@ char *read_line(void)
 		exit(-1);
 	}
 	return (line);
+}
+
+/**
+ * term_write - writes to terminal
+ * @out: string to print to terminal
+ * Return: No of chars printed
+ */
+
+int term_write(char *out)
+{
+	int count;
+	int i = 0;
+
+	count = write(1, out, strlen(out));
+	if (count < 0)
+	{
+		perror("hsh");
+	}
+	return (count);
 }
