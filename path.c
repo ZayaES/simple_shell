@@ -54,10 +54,10 @@ char **ph_to_dp(char *ph)
 
 	p[0] = strtok(ph, ":\n");
 	i = 1;
-	while (p[i])
+	/**while (p[i])
 	{
 		p[i] = strtok(NULL, ":\n");
-		i++;
+		i++;**/
 		if (p[i] == NULL)
 			break;
 	}
