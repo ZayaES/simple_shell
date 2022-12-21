@@ -33,5 +33,7 @@ char *_strcat(char *dest, char *src);
 
 void _enviro(void);
 void salto_linea(int n);
+extern char **environ;
+void _ext(void);
 
 #endif
