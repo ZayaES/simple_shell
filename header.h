@@ -31,4 +31,7 @@ char *_strdup(char *str);
 int _strlen(char *s);
 char *_strcat(char *dest, char *src);
 
+void _enviro(void);
+void salto_linea(int n);
+
 #endif
