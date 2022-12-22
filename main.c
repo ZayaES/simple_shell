@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	char w_env[4] = "env";
+/*	char w_env[4] = "env";
 	char w_exit[5] = "exit";
 	char w_slash[1] = "/";
 	char *line = NULL;
@@ -45,6 +45,7 @@ int main(void)
 		exec_process(path, line);
 		free(line);
 		free(arg);
-	}
+	}*/
+	simple_shell();
 	return (0);
 }
