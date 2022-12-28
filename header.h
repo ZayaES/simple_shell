@@ -26,6 +26,7 @@ int _putchar(char c);
 char **path_av(char **arg);
 char **ph_to_dp(char *ph);
 int number_of_dir(char *ph);
+char *_getenv(char *name);
 
 int _strcmp(char *s1, char *s2);
 char *_strdup(char *str);
