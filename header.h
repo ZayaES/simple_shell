@@ -20,7 +20,7 @@ char **parsing_arg(char *line);
 char *read_line(void);
 int term_write(char *out);
 void simple_shell(void);
-void eval_com (char **f_com, char *i_com);
+void eval_com(char **f_com, char *i_com);
 
 int _putchar(char c);
 char **path_av(char **arg);
