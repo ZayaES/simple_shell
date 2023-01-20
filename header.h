@@ -20,12 +20,13 @@ char **parsing_arg(char *line);
 char *read_line(void);
 int term_write(char *out);
 void simple_shell(void);
-void eval_com (char **f_com, char *i_com);
+void eval_com(char **f_com, char *i_com);
 
 int _putchar(char c);
 char **path_av(char **arg);
 char **ph_to_dp(char *ph);
 int number_of_dir(char *ph);
+char *_getenv(char *name);
 
 int _strcmp(char *s1, char *s2);
 char *_strdup(char *str);
